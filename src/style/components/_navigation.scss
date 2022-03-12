@@ -1,0 +1,131 @@
+.sidebar {
+  background: $navigation-color;
+  height: 100%;
+  min-height: $min-height;
+  width: 361px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 250px 1fr 108px;
+  grid-template-areas: "1" "2" "3";
+
+  .id {
+    grid-area: 1;
+    text-align: center;
+    user-select: none;
+    position: relative;
+
+    .id-content {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      .image-circle{
+        position: relative;
+        width: 160px;
+        height: 160px;
+        overflow: hidden;
+        border-radius: 50%;
+        transform: translateX(60%);
+
+        img {
+          width: 100%;
+          height: auto;
+          margin-top: -50px;
+        }
+      }
+
+      h3 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        margin-top: 1.5rem;
+        color: $white-color;
+        font-family: "Abyssinica SIL";
+      }
+
+    }
+  }
+
+  .navigation {
+    grid-area: 2;
+
+    ul {
+      height: 100%;
+      display: grid;
+      grid-template-rows: 100px 100px 100px;
+      list-style-type: none;
+
+      li {
+        padding: 1rem 0 1rem 0.4rem;
+        font-size: 1.3rem;
+        position: relative;
+
+        &:hover i {
+          transform: translate(3px, 3px);
+        }
+
+
+        a {
+          i{
+            font-size: 30px;
+          }
+
+          text-decoration: none;
+          font-size: 30px;
+          color: $white-color;
+        }
+
+        .navActive {
+          color: $white-color;
+        }
+
+        i {
+          position: absolute;
+          font-size: 0.95rem;
+          transform: translateY(3px);
+          transition: .2s ease;
+        }
+
+        span {
+          margin-left: 3.7rem;
+        }
+      }
+    }
+  }
+
+  .socialNetwork {
+    grid-area: 3;
+
+    ul {
+      display: flex;
+      width: 264px;
+      justify-content: space-between;
+
+      li {
+        list-style-type: none;
+        font-size: 1.5rem;
+        background: $cyan-blue;
+        color: $white-color;
+        border-radius: 50%;
+        padding: .5rem .8rem;
+        transition: 0.3s;
+        cursor: pointer;
+
+        a:visited {
+          color: $white-color;
+        }
+
+        &:nth-child(4) {
+          padding: 0.5rem .75rem;
+        }
+
+        &:hover {
+          background: $white-color;
+        }
+      }
+    }
+  }
+
+}
