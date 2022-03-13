@@ -3,3 +3,47 @@ $navigation-color: #0F172A;
 $min-height: 100vh;
 $white-color: #ffff;
 $cyan-blue: #549DE0;
+$card-color: #414141;
+$border-radius: 21px;
+$progress-color: #C4C4C4;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  color: $white-color;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $white-color;
+  cursor: pointer;
+}
+a:visited {
+  color:$white-color;
+}
+.home, .knowledges, .portfolio, .contact {
+  display: flex;
+
+  @media screen and (max-width: 850px){
+    display: block !important;
+  }
+}
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+  margin-left: .4rem;
+
+  @media screen and (max-width: 850px){
+    margin-left: 0 !important;
+  }
+}
