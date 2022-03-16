@@ -98,6 +98,82 @@
       }
 
     }
+
+    .experience {
+      grid-area: E;
+      margin: 0 0 .5rem .5rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10% 1fr 1fr;
+      grid-template-areas:
+        "1"
+        "2"
+        "3";
+
+      h3 {
+        grid-area: 1;
+      }
+      h4 {
+        font-size: 1.1rem;
+        color: $white-color;
+      }
+      h5 {
+        color: $white-color;
+        padding: 0.5rem 0 0.5rem 1rem;
+      }
+      p {
+        text-align: justify;
+        padding: 0 1rem;
+      }
+      .exp-1 {
+        grid-area: 2;
+      }
+      .exp-2 {
+        grid-area: 3;
+      }
+    }
+    .otherSkills {
+      grid-area: O;
+      margin-right: 0.5rem;
+
+      .list {
+        display: flex;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+
+        ul {
+          height: 80%;
+          display: grid;
+
+          i {
+            color:$white-color;
+          }
+        }
+      }
+    }
+
+    .hobbies {
+      grid-area: H;
+      padding-left: 1.5rem;
+
+      ul {
+        height: 80%;
+        display: grid;
+
+        li {
+          i {
+            position: absolute;
+            color: $white-color;
+          }
+          span {
+            position: absolute;
+            transform: translateX(2.2rem);
+          }
+        }
+      }
+    }
   }
 
 }

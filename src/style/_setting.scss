@@ -6,6 +6,7 @@ $cyan-blue: #549DE0;
 $card-color: #414141;
 $border-radius: 21px;
 $progress-color: #C4C4C4;
+$background-color: #262A35;
 
 @mixin verticalCenter {
   display: flex;
@@ -16,6 +17,7 @@ $progress-color: #C4C4C4;
   box-sizing: border-box;
 }
 body {
+  background: $background-color;
   max-width: 1200px;
   color: $white-color;
 }
