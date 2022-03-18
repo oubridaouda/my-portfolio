@@ -7,6 +7,7 @@ $card-color: #414141;
 $border-radius: 21px;
 $progress-color: #C4C4C4;
 $background-color: #262A35;
+$color-text: #6CB9FF;
 
 @mixin verticalCenter {
   display: flex;
@@ -43,7 +44,7 @@ a:visited {
   }
 }
 .homeContent, .knowledgesContent, .portfolioContent, .contactContent {
-  margin-left: .4rem;
+  margin-left: 1rem;
 
   @media screen and (max-width: 850px){
     margin-left: 0 !important;
