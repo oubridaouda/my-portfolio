@@ -18,12 +18,12 @@ const Home = () => {
                         onInit={(typewriter) => {
                             typewriter
                                 .pauseFor(500)
-                                .typeString("<h4>Devéloppeur web et mobile </h4>")
+                                .typeString("<h3 class='purple'>Devéloppeur web et mobile </h3>")
                                 .pauseFor(200)
                                 .deleteAll()
-                                .typeString("<h4>Je contribut au projet libre</h4>")
+                                .typeString("<h3 class='purple'>Je contribut au projet libre</h3>")
                                 .deleteAll()
-                                .typeString("<h4>J'apprend les différent technologie de google</h4>")
+                                .typeString("<h3 class='purple'J'apprend les différent technologie de google</h4>")
                                 .deleteAll(10)
                                 .start()
                         }}
@@ -34,23 +34,24 @@ const Home = () => {
                 </div>
                 <div className="content-text">
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
+                        Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work
                         <br/>
                         <br/>
-                        industry's standard dummy text ever since the 1500s, when an unknown printer
+                        for agencies, consulted for startups, and collaborated with talented people to create digital
                         <i><b className="purple"> was popularised in the 1960s</b></i>
                         <br/>
                         <br/>
-                        and scrambled it to make a type specimen book. It has survived not only five
+                        products for both business and consumer use. I'm quietly confident,
                         <i>centuries, but also the</i>
                         <br/>
                         <br/>
-                        leap into electronic typesetting, remaining essentially unchanged. It
+                        naturally curious, and
+                        perpetually working on improving my chops one design problem at a time.
                         <i><b className="purple"> was popularised in the 1960s</b></i>
                         <br/>
                         <br/>
-                        with the release of Letraset sheets <i><b className="purple">containing Lorem Ipsum</b></i> passages, and more recently
+                        with the release of Letraset sheets <i><b className="purple">containing Lorem
+                        Ipsum</b></i> passages, and more recently
                         <i>was popularised in the 1960s</i>
 
                         <br/>

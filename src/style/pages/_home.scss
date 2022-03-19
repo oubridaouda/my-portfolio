@@ -10,6 +10,12 @@
 
   .animattion-text {
     grid-area: A;
+    p{
+      font-size: 40px;
+    }
+    h3{
+      font-size: 40px;
+    }
   }
   .purple{
     color: $color-text;
@@ -24,5 +30,8 @@
   }
   .content-text{
     grid-area: O;
+    p{
+      font-size: 17px;
+    }
   }
 }

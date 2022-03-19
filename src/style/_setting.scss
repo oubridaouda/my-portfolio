@@ -32,6 +32,9 @@ a {
   color: $white-color;
   cursor: pointer;
 }
+p, h1, h2, h3, h4, li, i, a{
+  font-family: "Sansita Swashed";
+}
 a:visited {
   color:$white-color;
 }
