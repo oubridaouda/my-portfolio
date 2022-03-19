@@ -2,7 +2,7 @@
   background: $navigation-color;
   height: 100%;
   min-height: $min-height;
-  width: 361px;
+  min-width: 361px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;

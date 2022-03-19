@@ -19,7 +19,6 @@ $color-text: #6CB9FF;
 }
 body {
   background: $background-color;
-  max-width: 1200px;
   color: $white-color;
 }
 button {
@@ -43,7 +42,7 @@ a:visited {
     display: block !important;
   }
 }
-.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+.homeContent, .knowledgesContent, .portfolioContent, {
   margin-left: 1rem;
 
   @media screen and (max-width: 850px){
